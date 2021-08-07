@@ -19,9 +19,10 @@ main()
 {
     ios_base::sync_with_stdio(0);
     cin.tie(0), cout.tie(0);
+#ifndef ONLINE_JUDGE
     freopen(DoNothing".inp", "r", stdin);
     //freopen(DoNothing".out", "w", stdout);
-
+#endif // ONLINE_JUDHE
 
     return 0;
 }
